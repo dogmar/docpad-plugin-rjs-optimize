@@ -1,0 +1,32 @@
+{
+	'name': 'docpad-plugin-rjs-optimize',
+	'version': '0.0.1',
+	'description': 'DocPad plugin that adds the ability to optimize scripts using r.js into a single file that can be embedded inline into html pages',
+	'homepage': 'https://github.com/dogmar/docpad-plugin-plugin-rjs-optimize',
+	'keywords': [
+		'docpad',
+		'docpad-plugin',
+		'requirejs',
+		'r.js',
+		'optimize'
+	],
+	'author': 'Chris Klink <chris@chrisklink.com> (http://chrisklink.com)',
+	'maintainers': [
+		'Your name <chris@chrisklink.com> (https://github.com/dogmar)'
+	],
+	'contributors': [
+		'Chris Klink <chris@chrisklink.com> (https://github.com/dogmar)'
+	],
+	'bugs': {
+		'url': 'https://github.com/dogmar/docpad-plugin-rjs-optimize/issues'
+	},
+	'repository' : {
+		'type': 'git',
+		'url': 'https://github.com/dogmar/docpad-plugin-rjs-optimize.git'
+	},
+	'engines' : {
+		'node': '>=0.8',
+		'docpad': '>=6'
+	},
+	'main': './src/rjs-optimize.plugin.coffee'
+}
